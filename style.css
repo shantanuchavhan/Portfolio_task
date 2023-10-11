@@ -1,0 +1,151 @@
+/* Global Reset for Headings */
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 56px; /* Padding from both sides of header */
+    align-items: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #ffffff; /* Background color */
+    color: #282828; /* Text color */
+    text-align: center;
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* List Styles */
+ul {
+    list-style: none; /* Remove the default list bullet points */
+    padding: 0;
+}
+
+/* List Item Styles */
+li {
+    display: inline; /* Display list items in a horizontal line */
+    margin: 0 24px; /* Add spacing between items */
+}
+
+/* Link Styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #363636; /* Text color for links */
+}
+
+
+
+
+
+
+/* Main Content Styles */
+main {
+    padding: 16px 56px; /* Padding from both sides of the main body */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section{
+    padding: 32px 0;
+}
+
+/* Portfolio Name Styles */
+.Portfolio-Name {
+    color: gray;
+}
+
+.Portfolio-Name span {
+    font-family: Irish Grover;
+    color: #9460c2;
+    font-size: 20px;
+}
+
+/* Hero Section Styles */
+#hero-section {
+    display: flex;
+    gap: 180px;
+    
+}
+
+#hero-section h1{
+    font-size: 40px;
+    color: #363636;
+}
+
+#hero-section div {
+    flex: 1;
+}
+
+.hero-section-img {
+    width: 60%;
+    height: 460px;
+    flex: 1;
+}
+
+.hero-section-introduction {
+    padding-top: 48px;
+    gap: 8px;
+}
+
+.hero-section-introduction h1 {
+    font-size: 36px;
+}
+
+.hero-section-introduction p {
+    color: rgb(190, 180, 180);
+    line-height: 32px;
+    font-size: 20px;
+}
+
+
+
+/* Primary Button Styles */
+.Primary-Button {
+    background-color: #693696;
+    color: #ffffff;
+    padding: 12px 32px;
+    border: none;
+    margin-right: 24px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Hero Section Icon Styles */
+.hero-section-introduction-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 32px;
+    padding: 16px;
+}
+
+.hero-section-introduction-icons img {
+    height: 22px;
+    width: 22px;
+}
+
+
+
+/* Skills Sction css start */
+#skills{
+    display: flex;
+    gap: 42px;
+
+}
+
+.skills-section-description{
+    width: 60%;
+}
+
+.skills-section-img{
+    width: 50%;
+    height: 460px;
+}
