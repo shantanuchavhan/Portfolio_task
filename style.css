@@ -150,3 +150,9 @@ main {
     width: 50%;
     height: 460px;
 }
+
+.techstack-images img{
+    height: 40px;
+    width: 40px;
+    
+}
