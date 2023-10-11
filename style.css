@@ -151,8 +151,14 @@ main {
     height: 460px;
 }
 
+.techstack-images{
+    display: flex;
+    gap: 24px;
+}
+
 .techstack-images img{
     height: 40px;
     width: 40px;
     
 }
+
