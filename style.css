@@ -261,7 +261,27 @@ main {
     display: flex;
     gap: 32px;
 }
+.achievements div{
+    flex: 1;
+}
 .achievementsimg{
     height: 80%;
     width: 100%;
+    border: 6px solid rgb(175, 175, 254);
+}
+
+
+#blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.blogs{
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.blog {
+    padding:  32px 72px;
+    border: 1px solid gray;
 }
