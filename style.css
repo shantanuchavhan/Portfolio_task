@@ -231,7 +231,8 @@ main {
 .Project-Image {
     height: 240px;
     width: 265px;
-    box-shadow: 2px 8px 10px 8px rgba(209, 209, 209, 0.4);
+    box-shadow: 2px 8px 20px 8px rgba(209, 209, 209, 0.4);
+    border-radius: 8px;
   }
   
 .Project-Title{
@@ -249,3 +250,18 @@ main {
 }
 
 
+/* acheivements css */
+#achievements{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.achievements{
+    display: flex;
+    gap: 32px;
+}
+.achievementsimg{
+    height: 80%;
+    width: 100%;
+}
