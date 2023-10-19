@@ -229,19 +229,22 @@ main {
 }
 
 .Project-Image {
+    filter: grayscale();
     height: 240px;
     width: 265px;
     box-shadow: 2px 8px 20px 8px rgba(209, 209, 209, 0.4);
     border-radius: 8px;
+    
   }
-  
+
+  .Project-Image:hover{
+    filter: none;
+    
+  }  
 .Project-Title{
     padding-bottom: 8px;
 }
-.Project-Title:hover{
-    border-bottom: 1px solid gray;
-    
-}
+
 
 .project-open{
     position: absolute;
@@ -278,10 +281,67 @@ main {
 }
 .blogs{
     display: flex;
-    gap: 40px;
+    gap: 64px;
     position: relative;
 }
 .blog {
-    padding:  32px 72px;
+    height: 80px;
+    width: 200px;
     border: 1px solid gray;
+    
 }
+
+
+.blog {
+    --g: 4px;     /* the gap */
+    --b: 8px;    /* border thickness*/
+    --c: #edf05e; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+  }
+ .blog:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+  }
+  
+
+
+  .Project-Title {
+	font-family: "Dancing Script", cursive;
+	font-size: 1rem;
+	
+	position: relative;
+}
+
+.Project-Title::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.projects:hover .Project-Title::after {
+	width: 100%;
+	left: 0;
+}
+
+
+
+
+  
+  

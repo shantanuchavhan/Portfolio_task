@@ -17,3 +17,9 @@ function downloadResume() {
     // Clean up the anchor element
     document.body.removeChild(anchor);
 }
+
+
+
+
+
+
