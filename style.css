@@ -108,8 +108,11 @@ main {
     flex: 1;
 }
 
-.hero-section-img {
+.hero-section{
     width: 60%;
+}
+.hero-section-img {
+    
     height: 460px;
     flex: 1;
 }
@@ -341,6 +344,18 @@ main {
 }
 
 
+
+.hidden {
+    display: none;
+}
+
+.hero-section-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
 
 
   

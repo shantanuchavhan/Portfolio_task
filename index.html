@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <script src="./App.js"></script>
+    <script src="https://cdn.sendgrid.com/sg.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -29,7 +31,6 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#talks">Talks</a></li>
             </ul>
         </nav>
     </header>
@@ -46,12 +47,20 @@
                     <a href="https://github.com/shantanuchavhan" target="_blank"><img src="./images/githubicon.png" alt=""></a>
                 </div>
                 <div>
-                    <button class="Primary-Button">Contact me</button>
+                    <button onclick="contactMe()" class="Primary-Button">Contact me</button>
                     <button onclick="downloadResume()" class="Primary-Button">See my resume</button>
                 </div>
             </div>
-           
-            <img class="hero-section-img" src="./images/5484597.jpg" alt="">
+            <div  class="hero-section">
+                <img class="hero-section-img" src="./images/5484597.jpg" alt="">
+                <div class="hero-section-contact">
+                    <h2>Gmail:-shantanuchavhan002@gmail.com</h2>
+                    <h2>Phone number:-9011793540</h2>
+                </div>
+            </div>
+            
+            
+            
             
             <!-- Add content related to skills here -->
         </section>
